@@ -1,0 +1,100 @@
+
+body{
+	background-image: url(../img/1920x1080_star_wars_wallpaper_001.jpg);
+}
+header{
+	text-align: center;
+	color: #A9A9A9;
+	font-family: 'Press Start 2P', cursive;
+}
+form{
+	margin-top: 20px; 
+}
+.dflex{
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;	
+}
+
+input{
+	width: 300px; 
+	height: 30px; 
+}
+
+#allChars{
+	margin-top: 100px; 
+}
+.personaje{
+	height: 250px;
+	border: 1px solid #A9A9A9; 
+	border-top-right-radius: 20px; 
+	border-bottom-left-radius: 20px;
+	margin-right: 20px; 
+	margin-bottom: 50px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.personaje:hover{
+	cursor: pointer; 
+	opacity: .8
+}
+
+#n1{background-image: url(../img/luke.jpg);}
+#n4{background-image: url(../img/darth.jpg);}
+#n5{background-image: url(../img/leia.jpg);}
+#n2{background-image: url(../img/c3p0.jpg); background-position: 0px -20px;}
+#n3{background-image: url(../img/r2d2.jpg); background-position: 0px -20px;}
+#n8{background-image: url(../img/r5d4.jpg);}
+#n13{background-image: url(../img/chew.jpg);}
+#n10{background-image: url(../img/obi.jpg);}
+#n11{background-image: url(../img/anakin.png);}
+#n27{background-image: url(../img/mon.jpg);}
+#n16{background-image: url(../img/hutt.jpg);}
+#n20{background-image: url(../img/yoda.jpg);}
+#n30{background-image: url(../img/ewok.jpg);}
+#n31{background-image: url(../img/sullustan.jpg);}
+#n14{background-image: url(../img/han.jpg);}
+
+
+/*modal*/
+.modal-title{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center; 
+	text-transform: uppercase;
+}
+.p-modal{
+	font-size: 20px; 
+}
+
+label{
+	font-size: 24px; 
+}
+
+.modal-body{
+	display: flex; 
+	flex-wrap: wrap;
+	background-image: url(../img/Star-Wars-Wallpaper-On-Wallpaper-Hd-14.jpg);
+	color: #FFF;
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+.interno{
+	width: 50%;
+	height: inherit;
+}
+
+.imagen{
+	outline: 2px solid black;
+	height: 230px;
+}
+.label-panel{
+	font-size: 16px; 
+}
+.panel{
+	width: 100%;
+	margin-top: 10px;
+	color: #086658;
+}

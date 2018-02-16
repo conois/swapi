@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Swapi</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header>
+	<h1>SWAPI</h1>
+	<h4>Los personajes favoritos de Star Wars</h4>
+</header>
+
+
+<section id="allChars">
+	<div class="container">
+		<div class="row dflex all">
+			<div id='n1' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n4' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n5' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n2' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n3' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n8' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n13' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n10' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n11' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar"></div>
+			<div id='n27' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n16' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n20' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n30' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n31' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+			<div id='n14' class="personaje col-lg-3 col-xs-4 col-sm-3" data-toggle="modal" data-target="#modalChar" ></div>
+		</div>
+		
+
+	</div>
+</div>
+</section>
+
+
+<div id="modalChar" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="info interno">
+      		<label>Gender: </label>
+	        <p id="gender" class="p-modal" ></p>
+	        <label> Height: </label>
+	        <p id='height' class="p-modal"></p>
+	        <label>Eye-color: </label>
+	        <p id="eye" class="p-modal"></p>
+	       </div> 
+      	<hr>
+      	<div class="panel panel-primary ">
+				  <div class="panel-heading" style="text-decoration: underline;">Films</div>
+				  <div class="panel-body">
+				  </div>
+				</div>
+      </div>   	
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src='js/dataImage.js'></script>
+</body>
+</html>
